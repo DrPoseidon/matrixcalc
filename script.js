@@ -109,7 +109,7 @@ for(let t=0;t<dataOfInputs.length;t++){
        for(let j=0;j<arr[i].length;j++){
            if(t+1==arr[i][j]){
 
-                containerForG.innerHTML+="G<sup>-</sup>("+arr[i][j]+") = ["+(i+1)+"]<br>"
+                containerForG.innerHTML+="G<sup>+</sup>("+arr[i][j]+") = ["+(i+1)+"]<br>"
            }
        }
    }
